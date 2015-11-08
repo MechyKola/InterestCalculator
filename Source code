@@ -37,7 +37,8 @@
 						break;
 					}
 					//generate error message
-					Console.WriteLine("Interest cannot be negative " + "or greater than " + maxInterest);
+					Console.WriteLine("Interest cannot be negative " + "or greater than " 
+					+ maxInterest);//the code is a bit too long so I put it in a new line
 					Console.WriteLine("Please try again ");
 					Console.WriteLine();
 				}
